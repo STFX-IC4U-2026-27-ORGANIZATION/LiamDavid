@@ -1,0 +1,40 @@
+Apple
+$351.56
+John Ternus
+$5.08T
+NVIDIA
+$200.13
+Jensen Huang
+$4.83T
+Microsoft
+$522.33
+Satya Nadella
+$4.12T
+Alphabet
+$281.97
+Sundar Pichai
+$3.55T
+Amazon
+$220.50
+Andy Jassy
+$2.85T
+Broadcom
+$325.48
+Hock Tan
+$1.55T
+Meta
+$620.15
+Mark Zuckerberg
+$1.55T
+Tesla
+$380.40
+Elon Musk
+$1.43T
+TSMC
+$195.20
+C.C. Wei
+$1.70T
+Samsung
+$45.10
+Han Jong-hee
+$340B
