@@ -5,6 +5,9 @@ import java.io.*;
 
 public class CompanyDBMethods {
 	
+	// DESCRIPTION - Returns Company[] populated with Company objects from file. 
+	// PARAMETERS - String fileName 
+	// RETURN - Company[]
 	public static Company[] loadFiles(String fileName) {
 		
 		ArrayList <Company> myList = new ArrayList <> ();
