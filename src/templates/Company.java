@@ -84,7 +84,7 @@ public class Company {
 	
 	public String toString() {
 		
-		return super.toString() + "" + this.name + "." + this.stockPrice + "."
+		return super.toString() + "." + this.name + "." + this.stockPrice + "."
 				+ this.ceo + "." + this.netPrice;
  		
 	}
