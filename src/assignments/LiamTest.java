@@ -6,15 +6,15 @@ public class LiamTest {
 	public static void main(String[] args) {
 		
 		Company [] myCompany = CompanyDBMethods.loadFiles("C:\\Users\\s501327\\git\\LiamDavid\\src\\Company.txt");
-		System.out.println(SearchByCEO.findCEO(myCompany, "John Ternus", 0));
-		System.out.println(SearchByCEO.findCEO(myCompany, "jensEn huang", 0));
-		System.out.println(SearchByCEO.findCEO(myCompany, "jensEn huang!", 0));
-		System.out.println(SearchByCEO.findCEO(myCompany, "JENSEN HUANG", 0));
-		System.out.println(SearchByCEO.findCEO(myCompany, "Satya Nadella", 0));
-		System.out.println(SearchByCEO.findCEO(myCompany, "TSMC", 0));
-		System.out.println(SearchByCEO.findCEO(myCompany, "Han Jong-hee", 0));
-		System.out.println(SearchByCEO.findCEO(myCompany, "620.15", 0));
-		System.out.println(SearchByCEO.findCEO(myCompany, "asdfg", 0));
-		System.out.println(SearchByCEO.findCEO(myCompany, "2T", 0));
+		System.out.println(SearchByNetPrice.findNetPrice(myCompany, "5.08T", 0));
+		System.out.println(SearchByNetPrice.findNetPrice(myCompany, "4.83T", 0));
+		System.out.println(SearchByNetPrice.findNetPrice(myCompany, "340B", 0));
+		System.out.println(SearchByNetPrice.findNetPrice(myCompany, "5.08", 0));
+		System.out.println(SearchByNetPrice.findNetPrice(myCompany, "Satya Nadella", 0));
+		System.out.println(SearchByNetPrice.findNetPrice(myCompany, "TSMC", 0));
+		System.out.println(SearchByNetPrice.findNetPrice(myCompany, "3.55T", 0));
+		System.out.println(SearchByNetPrice.findNetPrice(myCompany, "3.55t", 0));
+		System.out.println(SearchByNetPrice.findNetPrice(myCompany, "123", 0));
+		System.out.println(SearchByNetPrice.findNetPrice(myCompany, "2T", 0));
 	}
 }
