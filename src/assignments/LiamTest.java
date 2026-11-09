@@ -6,7 +6,6 @@ public class LiamTest {
 	public static void main(String[] args) {
 		
 		Company [] myCompany = CompanyDBMethods.loadFiles("C:\\Users\\s501327\\git\\LiamDavid\\src\\Company.txt");
-		System.out.println(myCompany.length);
 		System.out.println(SearchByName.findName(myCompany, "Apple", 0));
 		System.out.println(SearchByName.findName(myCompany, "nViDiA", 0));
 		System.out.println(SearchByName.findName(myCompany, "Microsoft?", 0));

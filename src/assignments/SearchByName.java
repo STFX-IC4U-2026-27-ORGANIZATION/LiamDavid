@@ -17,7 +17,7 @@ public class SearchByName {
 			return index;
 		
 		// processing
-		return findName(a, name, index++);
+		return findName(a, name, ++index);
 	}
 
 }
