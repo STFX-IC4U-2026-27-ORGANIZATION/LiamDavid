@@ -6,15 +6,16 @@ public class LiamTest {
 	public static void main(String[] args) {
 		
 		Company [] myCompany = CompanyDBMethods.loadFiles("C:\\Users\\s501327\\git\\LiamDavid\\src\\Company.txt");
-		System.out.println(SearchByNetPrice.findNetPrice(myCompany, "5.08T", 0));
-		System.out.println(SearchByNetPrice.findNetPrice(myCompany, "4.83T", 0));
-		System.out.println(SearchByNetPrice.findNetPrice(myCompany, "340B", 0));
-		System.out.println(SearchByNetPrice.findNetPrice(myCompany, "5.08", 0));
-		System.out.println(SearchByNetPrice.findNetPrice(myCompany, "Satya Nadella", 0));
-		System.out.println(SearchByNetPrice.findNetPrice(myCompany, "TSMC", 0));
-		System.out.println(SearchByNetPrice.findNetPrice(myCompany, "3.55T", 0));
-		System.out.println(SearchByNetPrice.findNetPrice(myCompany, "3.55t", 0));
-		System.out.println(SearchByNetPrice.findNetPrice(myCompany, "123", 0));
-		System.out.println(SearchByNetPrice.findNetPrice(myCompany, "2T", 0));
+		System.out.println(SearchAllDataMember.indexFinder(myCompany, "apple"));
+		System.out.println(SearchAllDataMember.indexFinder(myCompany, "351.56"));
+		System.out.println(SearchAllDataMember.indexFinder(myCompany, "John Ternus"));
+		System.out.println(SearchAllDataMember.indexFinder(myCompany, "5.08T"));
+		System.out.println(SearchAllDataMember.indexFinder(myCompany, "Samsung"));
+		System.out.println(SearchAllDataMember.indexFinder(myCompany, "45.10"));
+		System.out.println(SearchAllDataMember.indexFinder(myCompany, "Han Jong-hee"));
+		System.out.println(SearchAllDataMember.indexFinder(myCompany, "340B"));
+		System.out.println(SearchAllDataMember.indexFinder(myCompany, "Liam Huang"));
+		System.out.println(SearchAllDataMember.indexFinder(myCompany, "!"));
+		
 	}
 }
